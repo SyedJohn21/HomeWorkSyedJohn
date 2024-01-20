@@ -13,10 +13,20 @@ public class ColumbiaUniversity extends MedicalSchool {
 		
 	}
 
-	/* extend keyword is used to inherit an abstract class
-	 * A regular class can inherit an another abstract class by using extend keyword.
-	 * A regular class can inherit another class by using extend keyword.
-	 * A regular class can not inherit an interface using extend keyword.
+	@Override
+	public void biochemistryLab() {
+		
+	}
+
+	@Override
+	public void hygiene() {
+		
+	}
+
+	/* extends keyword is used to inherit an abstract class
+	 * A regular class can inherit an another abstract class by using extends keyword.
+	 * A regular class can inherit another class by using extends keyword.
+	 * A regular class can not inherit an interface using extends keyword.
 	 */
 	
 	
